@@ -37,6 +37,9 @@ for (let i=1; i<11; i++){
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
+for (let i=5; i>=0; i--){
+  console.log(i);
+}//same formula as before, but instead 'i' starts at '5', min value is '<=0', and decrement integer
 
 
 // 2. For of loops  
@@ -45,16 +48,32 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
-
+for (let i=0; i<stars.length; i++){
+  console.log(stars[i]);
+}
 
 // 3. While loops  
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
+let i=0;
+while (i<stars.length){
+  console.log(stars[i]);
+  i++;
+}//used 'i' to assign value to array items, set max value for 'i' at less than array 
+ //length, log each 'i' of array, and increment 'i' so that it runs through full array
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
+i=0;
+while (i<=5){
+  console.log(i);
+  i++;
+} //re-set 'i' at 0, did not/could not use 'let' statement again since it was used on 
+  //line 60, but was able to declare new(same) value for same variable name w/out 'let'
+  //set 'when' to run for 'i' values less than or equal to 5
+  //increment 'i'
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
