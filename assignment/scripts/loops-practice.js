@@ -77,3 +77,12 @@ while (i<=5){
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+i=10;
+while (i>=5){
+  console.log(i);
+  i--;
+}
+//re-assign 'i' value to '10'
+//set conditional for values greater and equal to 5
+//log results for 'i'
+//decrement 'i'
